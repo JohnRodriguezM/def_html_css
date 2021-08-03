@@ -16,11 +16,25 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+  <!--estructura basica de un body en html
+  header   (dentro de esta etiqueta pueden haber muchas, entre las mas comunes es la etiqueta <nav>) 
+  main     (igual dentro de esta, como <section>, <ul>, <ol>,<li> <figure (dentro de esta img y figcaption)>, <a> , <video>
+  footer-->
+
+
    <header>
 
    </header>
 
    <main>
+<!-- Las etiquetas que permiten hacer listas son muy utiles
+<ul> is unordered list
+<ol> ir ordered list
+<li> is list item
+<a> es ancla
+esta fue una lista anidada
+la etiqueta img debe ir dentro del contenedor de figure
+y la etiqueta <figcaption> nos permite agregar una pequeña descripcion de la imagen de manerea visible-->
       <h1>Esta es mi lista del supermecardo</h1>
       <ul>
           <li>Verduras</li>
@@ -71,10 +85,24 @@
       </ul>
       <p>Es con amor para ti :)</p><br/>
       <p>En este video te vamos a enseñar una receta de ensalada de frutas</p>
-      <video src="./videos/y2mate.com - ENSALADA DE FRUTAS CON  CREMA  DELICIOSA RECETA_360p.mp4" controls preload="auto">
-      </video><br><br><br><br>
 
-     
+      <!--Dentro de video van ciertos atributos que tienen estas funciones: 
+      controls = para que aparezca boton de pausa, entre otros 
+      preload "auto" es para que el video se cargue desde antes que la pagina y permite que 
+      usuario decida en que momento empiece a reproducirse el video-->
+      <video src="./videos/y2mate.com - ENSALADA DE FRUTAS CON  CREMA  DELICIOSA RECETA_360p.mp4" controls preload="auto"></video>
+      <br><br><br><br>
+
+     <!--Esta etiqueta es muy importante
+      La forma correcta de diseñar un formulario es con la
+    etiqueta FORM , dentro de esta debe ir LABEL, esto es por buenas practicas
+  luego un span (opcional, que permite crear una descripcion del input, o ahi si el input, existen muchas clases de input
+  estan en Opciones.html)-->
+  <!--la etiqueta <fieldset permite crear un contenedor visual para el input
+  y la etiqueta legen crearle un titulo que puede servir en reemplazo al span de la etiqueta. aunque el legend se puede usar
+para muchas etiquetas y aparece en la parte superior del input, el label lo hace al lado-->
+
+
       <form action="">
         <fieldset style="width: 50%;">
           <legend>CALENDARIO PLATZI</legend>
