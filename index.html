@@ -101,7 +101,9 @@ y la etiqueta <figcaption> nos permite agregar una pequeña descripcion de la im
   <!--la etiqueta <fieldset permite crear un contenedor visual para el input
   y la etiqueta legen crearle un titulo que puede servir en reemplazo al span de la etiqueta. aunque el legend se puede usar
 para muchas etiquetas y aparece en la parte superior del input, el label lo hace al lado-->
+<!-- El input del submit basicamente es un boton de envio-->
 
+<!--el for del label y el id del input deben ser iguales-->
 
       <form action="">
         <fieldset style="width: 50%;">
@@ -116,7 +118,7 @@ para muchas etiquetas y aparece en la parte superior del input, el label lo hace
       </form><br><br>
 
       <form action="">
-<fieldset>
+<fieldset style="width: 50%;">
 <legend>tipo de comidas y hora, sorteo</legend>
 <label for="desayuno">
   <span>¿cual es tu desayuno?</span>
@@ -135,7 +137,34 @@ para muchas etiquetas y aparece en la parte superior del input, el label lo hace
   <input type="time" name ="hora" id = "hora" required> <br> <br>
 </label>
 <input type="submit">
+</label>
+</fieldset> <br><br>
+
+<!--El select nos ahorra tiempo y nos permite tener opciones
+asi pues asi es como se crea
+
+ojo : hay que tener cuidado que todos los atributos que 
+tienen un por Ej for , id , tengan el mismo "nombre" en el 
+valor-->
+
+
+
+<fieldset style="width: 50%;">
+    <legend>opcion select</legend>
+<label for="supermercado">
+<input list ="supermercado" required>
+<datalist id = "supermercado">
+    <option value="PAPA"></option>
+    <option value="CILANTRO"></option>
+    <option value="REMOLACHA"></option>
+    
+</datalist>
+<input type="submit" value="enviar">
+</label>
+
 </fieldset>
+
+
       </form>
       
 
