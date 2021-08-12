@@ -1,17 +1,36 @@
+/* margin: top    right   bottom   left 
+ margin: top   right-left   bottom
+ margin: top-bottom     right-left
+*/
+
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
-    background: transparent
+    padding: 0;
+    margin: 0;
 }
 html {
     font-size 62.5%;
+    font-size: 1.2rem;
 }
 
-.li_main_nav a , .li_main_nav , .contenedor_main_nav , a{
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 3px;
-    font-size: 2rem;
-    text-align: right;
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color:aquamarine;
+}
+.ul1{
+    width:10%;
+    height:10vh;
+    max-width: 100rem;
+    min-width: 10rem;
+    background-color: red;
+    margin: -7rem auto auto 10rem;
+    font-size:0.5rem;
+    display: in;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    position: relative;
+}
+.ul2{
+    margin: 5rem 0  auto;
 }

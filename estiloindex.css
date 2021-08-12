@@ -1,0 +1,50 @@
+/* z-index = para poner una caja encima de otra , se usa con position absolute
+opacity: para la transparencia de la caja
+filter: brillo*/
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+
+
+.padre{
+    width: 320px;
+    height: 420px;
+    border: 2px dotted blue;
+    background-color:#aF3;
+    border-radius: 10%;
+    position:absolute; top: 127.5px; left:775px;
+    opacity: 0.7;
+    z-index:2;
+    
+    
+
+}
+.padrecito{
+    width: 700px;
+    height: 500px;
+    border: 2px solid green;
+    background-color: transparent;
+    border-radius: 15%;
+    position: absolute; top:90px; left:440px;
+    z-index: 1;
+    background-size: 80%;
+    
+    
+}
+
+.messi {
+    width: 210px;
+    height: 380px;
+    position:relative; top: 50px; right: 180px; top: 65px;
+    opacity:0.95;
+    filter: brightness(2.4);
+  
+    
+}
