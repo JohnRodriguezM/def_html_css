@@ -13,35 +13,48 @@ html{
  }
 
 .padre{
-    width: 34rem;
-    height: 43rem;
+    width: 37.9rem;
+    height: 47.6rem;
     border: 0.2rem dotted #4056AD;
     background-color: #2B76E8;
     border-radius: 5%;
-    position:absolute; top: 127.5px; left:775px;
+    position:absolute; top: 119px; left:775px;
     opacity: 0.85;
     z-index:2;
  }
     
- .titulo_goku, .caracteristicas_goku{
+ .titulo_goku, .caracteristicas_goku, .tecnicas_goku{
     position: relative;
     font-size: 2.2rem;
 
 }
-.titulo_goku::first-letter{
+.titulo_goku::first-letter, .tecnicas_goku::first-letter, .tercerp::first-letter, .caja_tecnicas::first-letter{
     color:red;
-
+    
 }
 
+
+
 .definicion_goku{
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     text-align: center;
+
+}
+.caja_tecnicas{
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: auto 0.3rem auto 0.3rem;
+}
+
+.lista_tecnicas_goku{
+    list-style-type:upper-roman;
+    list-style-position: inside;
 }
 
 
 .padrecito{
-    width: 70rem;
-    height: 50rem;
+    width: 75rem;
+    height: 53rem;
     border: 0.8rem solid gold;
     background-color: transparent;
     border-radius: 15%;
@@ -51,7 +64,7 @@ html{
 }
 
 .hijo_padrecito{
-    width: 21rem;
+    width: 23rem;
     height: 7rem;
     border: 0.3rem solid gold;
     background-color: #5B74D4;
@@ -71,7 +84,7 @@ html{
 .goku {
     width: 29rem;
     height: 42rem;
-    position:absolute; top: 3.2rem; right: 37rem; 
+    position:absolute; top: 3.2rem; right: 42rem; 
     opacity:0.95;
     filter: brightness(1.2);   
 }
@@ -80,7 +93,7 @@ html{
 .goku_ultainstinto{
     width: 29rem;
     height: 42rem;
-    position:absolute; top: 4rem; right: 37rem; 
+    position:absolute; top: 4rem; right: 42rem; 
     opacity:0;
     filter: brightness(1.2);  
 }
