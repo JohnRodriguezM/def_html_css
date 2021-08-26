@@ -1,27 +1,21 @@
 #DEF HTML Y CSS
-Comenzando 🚀 - una ficha de técnica de un personaje animado llamado goku.
+
+Starting 🚀 - a data sheet of an animated character named goku.
 
 
-Ejecutando las pruebas - https://johnrodriguezm.github.io/def_html_css/
+see [here](https://johnrodriguezm.github.io/def_html_css/)
 
 
-Construido con 🛠️
-
-se usaron tecnologías de diseño y maquetado como :
+Built with: 🛠️
 
 -HTML5
 -CSS3
 
-
-Versionado 📌
-
-El sistema de control de versiones usado fue Git.
-
-Autores ✒️
+Author ✒️
 
 John Jairo Rodriguez Medina
 
-⌨️ con ❤️
+⌨️ with ❤️
 
 
 
